@@ -21,6 +21,10 @@ function Contact() {
     // Add your form submission logic here
   };
 
+  const submit = () =>{
+    alert("Message sent successfully!");
+  }
+
   return (
     <section id='contact'>
       <div className="form">
@@ -62,7 +66,7 @@ function Contact() {
             ></textarea>
           </div>
 
-          <button type="submit" className="submit-btn">Send Message</button>
+          <button type="submit" className="submit-btn"  onClick={submit}>Send Message</button>
         </form>
       </div>
     </section>

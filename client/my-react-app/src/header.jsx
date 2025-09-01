@@ -25,7 +25,7 @@ function Header() {
         .typeString('MERN Stack Developer')
         .pauseFor(300)
         .deleteChars(21)
-        .typeString('Coder')
+        .typeString('Music Enthusiast')
         .pauseFor(1000)
         .start();
     }
@@ -39,6 +39,7 @@ function Header() {
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA />
         <div className="me">
+          <div className="neon-beam"></div>
           <img src={ME} alt="me" id='me_img' />
         </div>
 
